@@ -3,7 +3,7 @@ function absorbEvent_(event) {
   e.preventDefault && e.preventDefault();
   e.stopPropagation && e.stopPropagation();
   e.cancelBubble = true;
-  e.returnValue = false;
+  e.returnValue = true;
   return false;
 }
 
