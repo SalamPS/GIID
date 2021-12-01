@@ -14,6 +14,8 @@ function preventLongPressMenu(node) {
   node.ontouchcancel = absorbEvent_;
 }
 
-function init() {
-  preventLongPressMenu(document.getElementById('theimage'));
+let ch = document.getElementsByTagName('img');
+for (let i = 0; i < ch.length; i++) {
+  preventLongPressMenu(ch[i]);
 }
+console.log('sc')
