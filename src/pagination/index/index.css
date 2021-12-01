@@ -70,11 +70,6 @@ body {
   width: 100vh;
 }
 
-.char-right:active {
-  -webkit-transform: translate(28%, -23vh);
-          transform: translate(28%, -23vh);
-}
-
 .img-left {
   float: left;
 }
@@ -85,11 +80,6 @@ body {
   -webkit-transition: .3s;
   transition: .3s;
   width: 70vh;
-}
-
-.char-left:active {
-  -webkit-transform: translate(-8%, -35vh);
-          transform: translate(-8%, -35vh);
 }
 
 .c1blankSpace1 {
@@ -218,8 +208,6 @@ body {
 .img-c1-pub-chat img:active {
   -webkit-transition: 1s;
   transition: 1s;
-  -webkit-transform: translateY(-110%);
-          transform: translateY(-110%);
 }
 
 .c2blankSpace2 {
