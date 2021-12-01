@@ -218,8 +218,8 @@ body {
 .img-c1-pub-chat img:active {
   -webkit-transition: 1s;
   transition: 1s;
-  -webkit-transform: translateY(-100%);
-          transform: translateY(-100%);
+  -webkit-transform: translateY(-110%);
+          transform: translateY(-110%);
 }
 
 .c2blankSpace2 {
