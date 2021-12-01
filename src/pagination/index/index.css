@@ -1,0 +1,313 @@
+body {
+  overflow: hidden;
+}
+
+#giid {
+  background-image: url(../index/bg/liyue_xiao.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.home-space {
+  height: 3vh;
+}
+
+.mainNav {
+  background-color: rgba(0, 0, 0, 0);
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+@media (min-width: 990px) {
+  .brand-logo {
+    margin-left: 20px;
+  }
+}
+
+.navDirect {
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.logoDirect {
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.navDirect:hover {
+  color: #26262e;
+  background-color: rgba(236, 161, 127, 0.6);
+  border-radius: 40px 40px 40px 40px;
+}
+
+.logoDirect:hover {
+  color: #2f2f3a;
+  background-color: rgba(236, 161, 127, 0.6);
+  border-radius: 30px 30px 30px 30px;
+  margin-left: 0px;
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.img-rightleft {
+  position: static;
+  height: 0px;
+}
+
+.img-right {
+  float: right;
+}
+
+.char-right {
+  -webkit-transform: translate(30%, -23vh);
+          transform: translate(30%, -23vh);
+  -webkit-transition: .3s;
+  transition: .3s;
+  width: 100vh;
+}
+
+.char-right:active {
+  -webkit-transform: translate(28%, -23vh);
+          transform: translate(28%, -23vh);
+}
+
+.img-left {
+  float: left;
+}
+
+.char-left {
+  -webkit-transform: translate(-10%, -35vh);
+          transform: translate(-10%, -35vh);
+  -webkit-transition: .3s;
+  transition: .3s;
+  width: 70vh;
+}
+
+.char-left:active {
+  -webkit-transform: translate(-8%, -35vh);
+          transform: translate(-8%, -35vh);
+}
+
+.c1blankSpace1 {
+  -webkit-transition: .3s;
+  transition: .3s;
+  height: 26vh;
+}
+
+.c1imgdiv {
+  -webkit-transition: .3s;
+  transition: .3s;
+  height: 0px;
+}
+
+.content1Title {
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.c1TD-orange {
+  position: -webkit-sticky;
+  position: sticky;
+  -webkit-transition: .3s;
+  transition: .3s;
+  color: #e7f6f8;
+  text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.9);
+}
+
+.c1TD-orange:hover {
+  color: #ffd8c1;
+}
+
+.c1TD-orange:active {
+  color: antiquewhite;
+}
+
+.content1SubTitle {
+  margin-top: -20px;
+}
+
+.c1sT-dark {
+  color: #0a1011;
+  text-shadow: 3px 3px 10px rgba(153, 153, 153, 0.6);
+}
+
+.c1sT-light {
+  color: #ddeff1;
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.9);
+}
+
+.c1blankSpace2 {
+  height: 38vh;
+}
+
+@media (max-width: 990px) {
+  .content1Title {
+    font-size: 40px;
+  }
+  .c1imgdiv {
+    height: 8vh;
+  }
+  .c2blankSpace1 {
+    margin-bottom: -10vh;
+  }
+}
+
+@media (max-width: 780px) {
+  .c1blankSpace1 {
+    height: 22vh;
+  }
+  .c1imgdiv {
+    height: 20vh;
+  }
+  .c2blankSpace1 {
+    margin-bottom: -15vh;
+  }
+}
+
+@media (max-width: 600px) {
+  .c1blankSpace1 {
+    height: 18vh;
+  }
+  .c1imgdiv {
+    height: 30vh;
+  }
+  .c2blankSpace1 {
+    margin-bottom: -20vh;
+  }
+}
+
+.whoarewe {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  background-color: #1b1f25;
+  padding: 50px 40px 50px 40px;
+  text-align: justify;
+  -webkit-box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.4);
+          box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+.public-chat {
+  -webkit-box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.8);
+          box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+}
+
+.img-c1-pub-chat {
+  color: rgba(0, 0, 0, 0);
+}
+
+.img-c1-pub-chat img {
+  -webkit-transition: .3s;
+  transition: .3s;
+  -webkit-transform: translateY(-100px);
+          transform: translateY(-100px);
+}
+
+.img-c1-pub-chat img:hover {
+  -webkit-transition: .3s;
+  transition: .3s;
+  -webkit-transform: translateY(-120px);
+          transform: translateY(-120px);
+}
+
+.img-c1-pub-chat img:active {
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-transform: translateY(-110vh);
+          transform: translateY(-110vh);
+}
+
+.c2blankSpace2 {
+  height: 0vh;
+}
+
+.img-c1-cat {
+  height: 0%;
+}
+
+.genshin-discuss-category {
+  position: relative;
+  z-index: 13;
+  float: left;
+  -webkit-transform: translateX(70%);
+          transform: translateX(70%);
+  -webkit-transition: .6s;
+  transition: .6s;
+  border-radius: 10px;
+  -webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.8);
+          box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.8);
+}
+
+.genshin-discuss-category:active {
+  -webkit-transform: translate(70%, -80px);
+          transform: translate(70%, -80px);
+}
+
+.dashboard-category {
+  position: relative;
+  z-index: 12;
+  float: left;
+  -webkit-transform: translate(-80%, 10%);
+          transform: translate(-80%, 10%);
+  -webkit-transition: .6s;
+  transition: .6s;
+  border-radius: 10px;
+  -webkit-box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.8);
+          box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.8);
+}
+
+.dashboard-category:active {
+  -webkit-transform: translate(-80%, 80px);
+          transform: translate(-80%, 80px);
+}
+
+.c2T1 {
+  color: white;
+  text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.8);
+}
+
+.c2sT1 {
+  font-size: 14px;
+  color: #212226;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+@media (min-width: 860px) {
+  .c2T1 {
+    padding-left: 10px;
+  }
+  .c2sT1 {
+    padding-left: 15px;
+  }
+}
+
+.whatwehave {
+  width: 100%;
+  background-image: url(/src/pagination/index/bg/sea_xiao.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 50px 40px 50px 40px;
+}
+
+.c3blankSpace1 {
+  height: 15vh;
+}
+
+.content3-1 {
+  background-color: rgba(179, 124, 98, 0.8);
+  border-radius: 30px 30px 30px 30px;
+  height: 100vh;
+}
+
+.c3blankSpace2 {
+  height: 15vh;
+}
+/*# sourceMappingURL=index.css.map */

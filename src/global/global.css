@@ -1,0 +1,33 @@
+@import url(../fonts/HyWen/stylesheet.css);
+@import url(../fonts/virgo/stylesheet.css);
+@import url(../../node_modules/materialize-css/dist/css/materialize.min.css);
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: transparent;
+}
+
+.text {
+  position: relative;
+  z-index: 10;
+}
+.hywenhei {
+  font-family: 'hywenhei', Arial, sans-serif;
+}
+.virgo {
+  font-family: 'virgo', Arial, sans-serif;
+}
