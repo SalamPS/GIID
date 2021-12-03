@@ -3,11 +3,17 @@ body {
 }
 
 #giid {
-  background-image: url(../../imgs/bg/aether-teyvat.jpg);
+  background-image: url(../../imgs/bg/sea_xiao.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   overflow-x: hidden;
+}
+
+@media (max-width: 640px) {
+  #giid {
+    background-position: 90% 0%;
+  }
 }
 
 .home-space {
