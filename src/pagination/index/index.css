@@ -171,6 +171,23 @@ body {
   color: #c7eeff;
 }
 
+.c1TD-purple {
+  position: -webkit-sticky;
+  position: sticky;
+  -webkit-transition: .3s;
+  transition: .3s;
+  color: #fbf4ff;
+  text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.9);
+}
+
+.c1TD-purple:hover {
+  color: #f6d3ff;
+}
+
+.c1TD-purple:active {
+  color: #c2a3db;
+}
+
 .content1SubTitle {
   margin-top: -20px;
 }
