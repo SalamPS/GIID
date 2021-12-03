@@ -72,7 +72,7 @@ const c2PC_transform_desktop_1 = () => {
   c2PubChatId += 1;
 }
 const c2PC_transform_desktop_2 = () => {
-  c2PubChat.style.transform = "translateY(-100px)";
+  c2PubChat.style.transform = "translateY(-30px)";
   c2PubChatId -= 1;
 }
 const c2PC_transform_mobile_1 = () => {
@@ -80,7 +80,7 @@ const c2PC_transform_mobile_1 = () => {
   c2PubChatId += 1;
 }
 const c2PC_transform_mobile_2 = () => {
-  c2PubChat.style.transform = "translateY(-100px)";
+  c2PubChat.style.transform = "translateY(-10px)";
   c2PubChatId -= 1;
 }
 

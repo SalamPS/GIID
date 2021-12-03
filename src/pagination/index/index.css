@@ -10,7 +10,7 @@ body {
   overflow-x: hidden;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 780px) {
   #giid {
     background-position: 90% 0%;
   }
@@ -214,8 +214,8 @@ body {
   z-index: 10;
   width: 100%;
   padding: 50px 40px 50px 40px;
-  -webkit-box-shadow: 0px 0px 20px #534141;
-          box-shadow: 0px 0px 20px #534141;
+  -webkit-box-shadow: 0px 0px 20px black;
+          box-shadow: 0px 0px 20px black;
   background-image: url(/src/imgs/bg/raiden.jpg);
   background-color: #1b1f25;
   background-repeat: no-repeat;
@@ -270,13 +270,13 @@ body {
 #pub-chat {
   -webkit-transition: .6s;
   transition: .6s;
-  -webkit-transform: translateY(-100px);
-          transform: translateY(-100px);
+  -webkit-transform: translateY(-30px);
+          transform: translateY(-30px);
 }
 
 #pub-chat:hover {
-  -webkit-transform: translateY(-120px);
-          transform: translateY(-120px);
+  -webkit-transform: translateY(-50px);
+          transform: translateY(-50px);
 }
 
 .c2blankSpace2 {
