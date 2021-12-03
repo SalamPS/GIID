@@ -3,7 +3,7 @@ body {
 }
 
 #giid {
-  background-image: url(../index/bg/mond-night.jpg);
+  background-image: url(../index/bg/lumine-dandel.jpg);
   background-position: top;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -212,14 +212,14 @@ body {
   text-align: justify;
   -webkit-box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.4);
           box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.4);
-  background-image: url(/src/pagination/index/bg/lumine-dandel.jpg);
+  background-image: url(/src/pagination/index/bg/mond-night.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 @media (min-width: 601px) {
   .whoarewe {
-    background-position: right;
+    background-position: center;
   }
 }
 
