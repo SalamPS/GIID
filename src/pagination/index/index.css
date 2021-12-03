@@ -1,9 +1,14 @@
+body {
+  overflow-x: hidden;
+}
+
 #giid {
   background-image: url(../index/bg/liyue_xiao.jpg);
   background-position: top;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  overflow-x: hidden;
 }
 
 .home-space {
@@ -165,7 +170,7 @@
   }
 }
 
-.content2 {
+.whoarewe {
   position: relative;
   z-index: 10;
   width: 100%;
@@ -178,6 +183,15 @@
   background-position: right;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+@media (min-width: 990) {
+  .whoarewe {
+    background-image: url(/src/pagination/index/bg/lumine-dandel.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
 
 .public-chat {
