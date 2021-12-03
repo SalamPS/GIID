@@ -92,6 +92,7 @@ if (window.innerWidth < 640) {
   c2PubChat.onclick = function() {
   }
 } else if (window.innerWidth < 990) {
+  c2PubChat.src = "./src/imgs/channel/public-chat-mobile.png";
   c2PubChat.style.transform = "translateY(-10px)";
   c2PubChat.onclick = function() {
     if (c2PubChatId === 0) {
