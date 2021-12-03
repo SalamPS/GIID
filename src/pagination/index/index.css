@@ -1,14 +1,9 @@
-body {
-  overflow: hidden;
-}
-
 #giid {
   background-image: url(../index/bg/liyue_xiao.jpg);
   background-position: top;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  overflow: hidden;
 }
 
 .home-space {
@@ -170,7 +165,7 @@ body {
   }
 }
 
-.whoarewe {
+.content2 {
   position: relative;
   z-index: 10;
   width: 100%;
@@ -179,6 +174,10 @@ body {
   text-align: justify;
   -webkit-box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.4);
           box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.4);
+  background-image: url(/src/pagination/index/bg/lumine-dandel.jpg);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .public-chat {
@@ -224,11 +223,6 @@ body {
           box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.8);
 }
 
-.genshin-discuss-category:active {
-  -webkit-transform: translate(70%, -80px);
-          transform: translate(70%, -80px);
-}
-
 .dashboard-category {
   position: relative;
   z-index: 12;
@@ -242,9 +236,15 @@ body {
           box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.8);
 }
 
-.dashboard-category:active {
-  -webkit-transform: translate(-80%, 80px);
-          transform: translate(-80%, 80px);
+@media (min-width: 990px) {
+  .genshin-discuss-category:active {
+    -webkit-transform: translate(70%, -80px);
+            transform: translate(70%, -80px);
+  }
+  .dashboard-category:active {
+    -webkit-transform: translate(-80%, 80px);
+            transform: translate(-80%, 80px);
+  }
 }
 
 .c2T1 {
@@ -254,7 +254,8 @@ body {
 
 .c2sT1 {
   font-size: 14px;
-  color: #212226;
+  color: #f4f6ff;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
   -webkit-transition: .3s;
   transition: .3s;
 }

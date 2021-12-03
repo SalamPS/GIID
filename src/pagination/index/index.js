@@ -56,7 +56,7 @@ const c1CL_transform_2 = () => {
   c1CharLeftId -= 1;
 }
 
-c1CharLeft.onclick = async function() {
+c1CharLeft.onclick = function() {
   if (c1CharLeftId === 0) {
     c1CL_transform_1();
   } else {
@@ -90,6 +90,15 @@ const c2PC_transform_mobile_2 = () => {
 //Change img based on width
 if (window.innerWidth < 780) {
   c2PubChat.src = "./src/imgs/channel/public-chat-mobile.png";
+  c2PubChat.onclick = function() {
+    if (c2PubChatId === 0) {
+      c2PC_transform_mobile_1();
+    } else {
+      c2PC_transform_mobile_2();
+    }
+  }
+} else if (window.innerWidth < 990) {
+  c2PubChat.src = "./src/imgs/channel/public-chat-tablet.png";
   c2PubChat.onclick = function() {
     if (c2PubChatId === 0) {
       c2PC_transform_mobile_1();
