@@ -88,6 +88,7 @@ const c2PC_transform_mobile_2 = () => {
 //Change img based on width
 if (window.innerWidth < 780) {
   c2PubChat.src = "./src/imgs/channel/public-chat-mobile.png";
+  c2PubChat.style.transform = "translateY(-50px)";
   c2PubChat.onclick = function() {
     if (c2PubChatId === 0) {
       c2PC_transform_mobile_1();
