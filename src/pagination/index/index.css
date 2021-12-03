@@ -208,18 +208,12 @@ body {
   z-index: 10;
   width: 100%;
   padding: 50px 40px 50px 40px;
-  -webkit-box-shadow: 0px 0px 20px black;
-          box-shadow: 0px 0px 20px black;
-  background-image: url(/src/imgs/bg/lumine-dandel.jpg);
+  -webkit-box-shadow: 0px 0px 20px #534141;
+          box-shadow: 0px 0px 20px #534141;
+  background-image: url(/src/imgs/bg/raiden.jpg);
   background-color: #1b1f25;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-@media (min-width: 780px) {
-  .whoarewe {
-    background-position: right;
-  }
 }
 
 .whoarewe-content {
@@ -229,20 +223,31 @@ body {
   text-align: justify;
   border-radius: 20px;
   padding: 20px 40px 20px 40px;
-  background-color: rgba(27, 31, 37, 0.2);
+  background-color: rgba(27, 31, 37, 0.4);
   -webkit-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.7);
           box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.7);
 }
 
+@media (min-width: 990px) {
+  .c2T1 {
+    text-align: right;
+    padding-right: 10%;
+  }
+}
+
 @media (min-width: 600px) {
   .whoarewe {
-    background-position: right;
+    background-position: bottom;
   }
 }
 
 @media (max-width: 600px) {
+  .c2T1 {
+    text-align: center;
+    font-size: 24px;
+  }
   .whoarewe {
-    background-position: 85% 0%;
+    background-position: 60% 0%;
   }
 }
 
@@ -316,6 +321,8 @@ body {
 .c2T1 {
   color: white;
   text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.8);
+  -webkit-transition: .3s;
+  transition: .3s;
 }
 
 .c2sT1 {
