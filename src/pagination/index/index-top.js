@@ -1,3 +1,10 @@
+const homepage_bg = document.getElementById("giid");
+if (window.innerWidth < 990) {
+  homepage_bg.style.backgroundPosition = 'left';
+} else {
+  homepage_bg.style.backgroundPosition = 'top';
+}
+
 
 //Change img based on width
 if (window.innerWidth < 780) {
