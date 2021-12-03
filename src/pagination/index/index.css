@@ -191,23 +191,16 @@ body {
   color: rgba(0, 0, 0, 0);
 }
 
-.img-c1-pub-chat img {
-  -webkit-transition: .3s;
-  transition: .3s;
+#pub-chat {
+  -webkit-transition: .6s;
+  transition: .6s;
   -webkit-transform: translateY(-100px);
           transform: translateY(-100px);
 }
 
-.img-c1-pub-chat img:hover {
-  -webkit-transition: .3s;
-  transition: .3s;
+#pub-chat:hover {
   -webkit-transform: translateY(-120px);
           transform: translateY(-120px);
-}
-
-.img-c1-pub-chat img:active {
-  -webkit-transition: 1s;
-  transition: 1s;
 }
 
 .c2blankSpace2 {
