@@ -3,7 +3,7 @@ body {
 }
 
 #giid {
-  background-image: url(../index/bg/mond-night.jpg);
+  background-image: url(../index/bg/aether-teyvat.jpg);
   background-position: top;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -72,6 +72,7 @@ body {
 .img-rightleft {
   position: static;
   height: 0px;
+  opacity: 0;
 }
 
 .img-right {
