@@ -3,7 +3,7 @@ body {
 }
 
 #giid {
-  background-image: url(../index/bg/liyue_xiao.jpg);
+  background-image: url(../index/bg/mond-night.jpg);
   background-position: top;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -37,15 +37,31 @@ body {
   transition: .3s;
 }
 
-.navDirect:hover {
+.navDirect-orange:hover {
   color: #26262e;
   background-color: rgba(236, 161, 127, 0.6);
   border-radius: 40px 40px 40px 40px;
 }
 
-.logoDirect:hover {
+.logoDirect-orange:hover {
   color: #2f2f3a;
-  background-color: rgba(236, 161, 127, 0.6);
+  background-color: rgba(117, 96, 86, 0.6);
+  border-radius: 30px 30px 30px 30px;
+  margin-left: 0px;
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.navDirect-greenblueish:hover {
+  color: #26262e;
+  background-color: rgba(127, 229, 236, 0.5);
+  border-radius: 40px 40px 40px 40px;
+}
+
+.logoDirect-greenblueish:hover {
+  color: #2f2f3a;
+  background-color: rgba(127, 229, 236, 0.5);
   border-radius: 30px 30px 30px 30px;
   margin-left: 0px;
   padding-top: 5px;
@@ -114,6 +130,23 @@ body {
 
 .c1TD-orange:active {
   color: antiquewhite;
+}
+
+.c1TD-greenblueish {
+  position: -webkit-sticky;
+  position: sticky;
+  -webkit-transition: .3s;
+  transition: .3s;
+  color: #e7f6f8;
+  text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.9);
+}
+
+.c1TD-greenblueish:hover {
+  color: #c2eef1;
+}
+
+.c1TD-greenblueish:active {
+  color: #9edbf3;
 }
 
 .content1SubTitle {
@@ -192,7 +225,7 @@ body {
 
 @media (max-width: 600px) {
   .whoarewe {
-    background-position: top;
+    background-position: right;
   }
 }
 
