@@ -3,4 +3,4 @@ gallery
 event
 *.css.map
 *.scss
-
+*.code-workspace

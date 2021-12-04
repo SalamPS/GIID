@@ -1,4 +1,6 @@
 @import url(../fonts/HyWen/stylesheet.css);
+@import url(../fonts/HyWen-thin/stylesheet.css);
+@import url(../fonts/righteous/stylesheet.css);
 @import url(../fonts/virgo/stylesheet.css);
 @import url(../../node_modules/materialize-css/dist/css/materialize.min.css);
 
@@ -28,6 +30,12 @@
 .hywenhei {
   font-family: 'hywenhei', Arial, sans-serif;
 }
+.hywenhei-thin {
+  font-family: 'hywenhei-thin', Arial, sans-serif;
+}
 .virgo {
   font-family: 'virgo', Arial, sans-serif;
+}
+.righteous {
+  font-family: 'righteous', Arial, sans-serif;
 }
