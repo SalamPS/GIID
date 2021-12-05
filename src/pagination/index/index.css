@@ -380,7 +380,7 @@ body {
 
 .whatwehave {
   width: 100%;
-  background-image: url(/src/imgs/bg/sea_xiao.png);
+  background-image: url(/src/imgs/bg/lumine-piano.jpg);
   background-position: top;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -389,7 +389,13 @@ body {
 }
 
 .c3blankSpace1 {
-  height: 15vh;
+  height: 5vh;
+}
+
+.c3-img {
+  border-radius: 10px;
+  -webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.7);
+          box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.7);
 }
 
 .content3-1 {
