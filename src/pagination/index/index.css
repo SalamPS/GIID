@@ -410,8 +410,10 @@ body {
   margin-top: -10px;
 }
 
-.c3blankSpace1 {
-  height: 10vh;
+@media (max-width: 600px) {
+  .c3blankSpace1 {
+    height: 5vh;
+  }
 }
 
 .c3sT-light {
@@ -426,6 +428,12 @@ body {
   padding: 20px 40px 50px 40px;
   border-radius: 10px;
   width: 100%;
+}
+
+@media (max-width: 600px) {
+  .whatwehave-content {
+    padding: 5px;
+  }
 }
 
 .c3subtitle {
