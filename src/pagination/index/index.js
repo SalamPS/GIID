@@ -116,4 +116,47 @@ if (window.innerWidth < 640) {
 
 
 
+const c3imgLeft = document.getElementsByClassName('c3-img-left');
+let c3imgLeftId = 0;
+const c3imgLeftTransform = (i) => {
+  if (c3imgLeftId === 0) {
+    if (window.innerWidth > 990) {
+      c3imgLeft[i].style.transform = "scale(170%) translateX(20px)";
+    } else {
+      c3imgLeft[i].style.transform = "scale(140%)";
+    }
+    c3imgLeftId += 1;
+  } else {
+    c3imgLeft[i].style.transform = "";
+    c3imgLeftId -= 1;
+  }
+}
+for (let i = 0; i < c3imgLeft.length; i++) {
+  c3imgLeft[i].onclick = () => {
+    c3imgLeftTransform(i);
+  }
+}
 
+
+
+
+const c3imgRight = document.getElementsByClassName('c3-img-right');
+let c3imgRightId = 0;
+const c3imgRightTransform = (i) => {
+  if (c3imgRightId === 0) {
+    if (window.innerWidth > 990) {
+      c3imgRight[i].style.transform = "scale(170%) translateX(-20px)";
+    } else {
+      c3imgRight[i].style.transform = "scale(140%)";
+    }
+    c3imgRightId += 1;
+  } else {
+    c3imgRight[i].style.transform = "";
+    c3imgRightId -= 1;
+  }
+}
+for (let i = 0; i < c3imgRight.length; i++) {
+  c3imgRight[i].onclick = () => {
+    c3imgRightTransform(i);
+  }
+}

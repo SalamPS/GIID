@@ -380,7 +380,7 @@ body {
 
 .whatwehave {
   width: 100%;
-  background-image: url(/src/imgs/bg/lumine-piano.jpg);
+  background-image: url(/src/imgs/bg/aether-teyvat.jpg);
   background-position: top;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -388,23 +388,83 @@ body {
   padding: 50px 40px 50px 40px;
 }
 
+.c3TD-blue {
+  position: -webkit-sticky;
+  position: sticky;
+  -webkit-transition: .3s;
+  transition: .3s;
+  color: #f4fdff;
+  text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.9);
+}
+
+.c3TD-blue:hover {
+  color: #d0f6ff;
+}
+
+.c3TD-blue:active {
+  color: #c7eeff;
+  opacity: .5;
+}
+
+.content3SubTitle {
+  margin-top: -10px;
+}
+
 .c3blankSpace1 {
-  height: 5vh;
+  height: 10vh;
+}
+
+.c3sT-light {
+  color: #f5f5ff;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.8);
+}
+
+.whatwehave-content {
+  background-color: rgba(16, 52, 53, 0.3);
+  -webkit-box-shadow: 0px 0px 10px rgba(16, 52, 53, 0.8);
+          box-shadow: 0px 0px 10px rgba(16, 52, 53, 0.8);
+  padding: 20px 40px 50px 40px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.c3subtitle {
+  text-align: justify;
+}
+
+.c3-text {
+  background-color: rgba(9, 16, 36, 0.3);
+  -webkit-box-shadow: 0px 0px 10px rgba(9, 16, 36, 0.8);
+          box-shadow: 0px 0px 10px rgba(9, 16, 36, 0.8);
+  border-radius: 10px;
+  padding: 15px 20px 15px 20px;
 }
 
 .c3-img {
-  border-radius: 10px;
   -webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.7);
           box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  -webkit-transition: .3s;
+  transition: .3s;
+  z-index: 100;
+  width: 100%;
+}
+
+.c3-img-left {
+  position: relative;
+}
+
+.c3-img-right {
+  position: relative;
 }
 
 .content3-1 {
-  background-color: rgba(179, 124, 98, 0.8);
-  border-radius: 30px 30px 30px 30px;
+  background-color: rgba(214, 196, 187, 0.8);
+  border-radius: 30px;
   height: 100vh;
 }
 
 .c3blankSpace2 {
-  height: 15vh;
+  height: 20px;
 }
 /*# sourceMappingURL=index.css.map */
