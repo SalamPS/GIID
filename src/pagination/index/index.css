@@ -3,16 +3,36 @@ body {
 }
 
 #giid {
-  background-image: url(../../imgs/bg/sea_xiao.png);
+  background-image: url(../../imgs/bg/lumine-piano.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   overflow-x: hidden;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+@media (max-width: 1600px) {
+  #giid {
+    background-position: 10% 0%;
+  }
+}
+
+@media (max-width: 1100px) {
+  #giid {
+    background-position: 15% 0%;
+  }
 }
 
 @media (max-width: 990px) {
   #giid {
-    background-position: 90% 0%;
+    background-position: 60% 0%;
+  }
+}
+
+@media (max-width: 600px) {
+  #giid {
+    background-position: 50% 0%;
   }
 }
 
