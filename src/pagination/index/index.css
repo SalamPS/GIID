@@ -3,7 +3,7 @@ body {
 }
 
 #giid {
-  background-image: url(../../imgs/bg/lumine-piano.jpg);
+  background-image: url(../../imgs/bg/lumine-dandel.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -12,27 +12,9 @@ body {
   transition: .3s;
 }
 
-@media (max-width: 1600px) {
-  #giid {
-    background-position: 10% 0%;
-  }
-}
-
-@media (max-width: 1100px) {
-  #giid {
-    background-position: 15% 0%;
-  }
-}
-
-@media (max-width: 990px) {
-  #giid {
-    background-position: 60% 0%;
-  }
-}
-
 @media (max-width: 600px) {
   #giid {
-    background-position: 50% 0%;
+    background-position: 50%;
   }
 }
 
@@ -277,16 +259,16 @@ body {
   padding: 50px 40px 50px 40px;
   -webkit-box-shadow: 0px 0px 20px black;
           box-shadow: 0px 0px 20px black;
-  background-image: url(/src/imgs/bg/raiden.jpg);
+  background-image: url(/src/imgs/bg/genshin-charas.jpg);
   background-color: #1b1f25;
-  background-position: bottom;
+  background-position: right;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 @media (max-width: 600px) {
   .whoarewe {
-    background-position: 60% 0%;
+    background-position: 80% 0%;
   }
 }
 
