@@ -42,3 +42,4 @@
 
 .text-white {color: rgb(249, 255, 255);}
 .text-white-shadow {text-shadow: 1px 1px 4px rgba(0, 0, 0, 1);}
+.text-hover-no-shadow:hover {text-shadow: none}
