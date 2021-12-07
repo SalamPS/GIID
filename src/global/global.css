@@ -43,3 +43,22 @@
 .text-white {color: rgb(249, 255, 255);}
 .text-white-shadow {text-shadow: 1px 1px 4px rgba(0, 0, 0, 1);}
 .text-hover-no-shadow:hover {text-shadow: none}
+
+
+@media (min-width: 990px) {
+  .l0 {
+    display : none;
+  }
+}
+@media (min-width: 600px) {
+  @media (max-width: 990px) {
+    .m0 {
+      display : none;
+    }
+  }
+}
+@media (max-width: 600px) {
+  .m0 {
+    display : none;
+  }
+}

@@ -122,8 +122,10 @@ const c3imgLeftTransform = (i) => {
   if (c3imgLeftId === 0) {
     if (window.innerWidth > 990) {
       c3imgLeft[i].style.transform = "scale(170%) translateX(20px)";
+    } else if (window.innerWidth > 600) {
+      c3imgLeft[i].style.transform = "scale(120%)";
     } else {
-      c3imgLeft[i].style.transform = "scale(140%)";
+      c3imgLeft[i].style.transform = "scale(130%)";
     }
     c3imgLeftId += 1;
   } else {
@@ -146,8 +148,11 @@ const c3imgRightTransform = (i) => {
   if (c3imgRightId === 0) {
     if (window.innerWidth > 990) {
       c3imgRight[i].style.transform = "scale(170%) translateX(-20px)";
-    } else {
-      c3imgRight[i].style.transform = "scale(140%)";
+    } else if (window.innerWidth > 600) {
+      c3imgRight[i].style.transform = "scale(120%)";
+    }
+    else {
+      c3imgRight[i].style.transform = "scale(130%)";
     }
     c3imgRightId += 1;
   } else {

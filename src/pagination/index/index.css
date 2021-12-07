@@ -12,6 +12,12 @@ body {
   transition: .3s;
 }
 
+@media (max-width: 990px) {
+  #giid {
+    background-position: 50%;
+  }
+}
+
 @media (max-width: 600px) {
   #giid {
     background-position: 50%;
@@ -50,14 +56,12 @@ body {
 }
 
 .navDirect-orange:hover {
-  text-shadow: none;
   color: #26262e;
   background-color: rgba(236, 161, 127, 0.6);
   border-radius: 40px 40px 40px 40px;
 }
 
 .logoDirect-orange:hover {
-  text-shadow: none;
   color: #2f2f3a;
   background-color: rgba(117, 96, 86, 0.6);
   border-radius: 30px 30px 30px 30px;
@@ -68,14 +72,12 @@ body {
 }
 
 .navDirect-greenblueish:hover {
-  text-shadow: none;
   color: #26262e;
   background-color: rgba(127, 229, 236, 0.5);
   border-radius: 40px 40px 40px 40px;
 }
 
 .logoDirect-greenblueish:hover {
-  text-shadow: none;
   color: #2f2f3a;
   background-color: rgba(127, 229, 236, 0.5);
   border-radius: 30px 30px 30px 30px;
@@ -86,14 +88,12 @@ body {
 }
 
 .navDirect-purple:hover {
-  text-shadow: none;
   color: #26262e;
   background-color: rgba(195, 168, 230, 0.5);
   border-radius: 40px 40px 40px 40px;
 }
 
 .logoDirect-purple:hover {
-  text-shadow: none;
   color: #2f2f3a;
   background-color: rgba(195, 168, 230, 0.5);
   border-radius: 30px 30px 30px 30px;
@@ -289,6 +289,7 @@ body {
 }
 
 #pub-chat {
+  opacity: .97;
   -webkit-transition: .6s;
   transition: .6s;
   -webkit-transform: translateY(-30px);
@@ -464,6 +465,18 @@ body {
   transition: .3s;
   z-index: 100;
   width: 100%;
+}
+
+@media (min-width: 600px) and (max-width: 761px) {
+  .c3-img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 761px) and (max-width: 991px) {
+  .c3-img {
+    width: 70%;
+  }
 }
 
 .c3-img-left {
