@@ -5,22 +5,25 @@
 @import url(../../node_modules/materialize-css/dist/css/materialize.min.css);
 
 ::-webkit-scrollbar {
-  width: 0px;
+  width: 15px;
   height: 0px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: transparent;
+  opacity: 0;
+  background: rgb(23, 26, 29);
 }
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: transparent;
+  background-color: rgb(60, 68, 73);
+  border-radius: 20px;
+  transition: .3s;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: transparent;
+  background-color: rgb(85, 97, 104);
 }
 
 .text {

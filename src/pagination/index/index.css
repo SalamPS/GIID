@@ -301,6 +301,10 @@ body {
           transform: translateY(-50px);
 }
 
+.c2blankSpace1 {
+  height: 20px;
+}
+
 .c2blankSpace2 {
   height: 0vh;
 }
@@ -508,5 +512,57 @@ body {
 
 .feature-link:visited {
   color: #f9ffff !important;
+}
+
+.content4 {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  padding: 50px 40px 50px 40px;
+  -webkit-box-shadow: 0px 0px 20px black;
+          box-shadow: 0px 0px 20px black;
+  background-image: url(/src/imgs/bg/amber.jpg);
+  background-color: #1b1f25;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 600px) {
+  .content4 {
+    background-position: 80% 0%;
+  }
+}
+
+.c4blankSpace1 {
+  height: 10vh;
+}
+
+#widget-bot {
+  opacity: .97;
+  border-radius: 10px;
+}
+
+@media (min-width: 990px) {
+  #widget-bot {
+    padding: 0px 40px 0px 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  #widget-bot {
+    margin-bottom: 40px;
+  }
+}
+
+widgetbot {
+  -webkit-box-shadow: 0px 0px 20px black;
+          box-shadow: 0px 0px 20px black;
+}
+
+iframe {
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 20px black;
+          box-shadow: 0px 0px 20px black;
 }
 /*# sourceMappingURL=index.css.map */
