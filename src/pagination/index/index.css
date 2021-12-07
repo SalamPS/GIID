@@ -431,9 +431,9 @@ body {
 }
 
 .whatwehave-content {
-  background-color: rgba(16, 52, 53, 0.3);
-  -webkit-box-shadow: 0px 0px 10px rgba(16, 52, 53, 0.8);
-          box-shadow: 0px 0px 10px rgba(16, 52, 53, 0.8);
+  background-color: rgba(15, 76, 97, 0.3);
+  -webkit-box-shadow: 0px 0px 10px rgba(8, 47, 59, 0.8);
+          box-shadow: 0px 0px 10px rgba(8, 47, 59, 0.8);
   padding: 20px 40px 50px 40px;
   border-radius: 10px;
   width: 100%;
