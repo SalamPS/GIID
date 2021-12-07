@@ -3,7 +3,7 @@ body {
 }
 
 #giid {
-  background-image: url(../../imgs/bg/baal.jpg);
+  background-image: url(../../imgs/bg/hutao.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -217,5 +217,18 @@ body {
   .c1imgdiv {
     height: 30vh;
   }
+}
+
+.feature-link {
+  color: #f9ffff !important;
+}
+
+.feature-link:hover {
+  color: #f9ffff !important;
+  text-decoration: underline;
+}
+
+.feature-link:visited {
+  color: #f9ffff !important;
 }
 /*# sourceMappingURL=404.css.map */
