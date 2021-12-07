@@ -1,0 +1,221 @@
+body {
+  overflow-x: hidden;
+}
+
+#giid {
+  background-image: url(../../imgs/bg/baal.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow-x: hidden;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+@media (max-width: 990px) {
+  #giid {
+    background-position: 50%;
+  }
+}
+
+@media (max-width: 600px) {
+  #giid {
+    background-position: 50%;
+  }
+}
+
+#home-screen {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.home-space {
+  height: 3vh;
+}
+
+.mainNav {
+  background-color: rgba(0, 0, 0, 0);
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+@media (min-width: 990px) {
+  .brand-logo {
+    margin-left: 20px;
+  }
+}
+
+.navDirect {
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.logoDirect {
+  -webkit-transition: .31s;
+  transition: .31s;
+}
+
+.navDirect-orange:hover {
+  color: #26262e;
+  background-color: rgba(236, 161, 127, 0.6);
+  border-radius: 40px 40px 40px 40px;
+}
+
+.logoDirect-orange:hover {
+  color: #2f2f3a;
+  background-color: rgba(117, 96, 86, 0.6);
+  border-radius: 30px 30px 30px 30px;
+  margin-left: 0px;
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.navDirect-greenblueish:hover {
+  color: #26262e;
+  background-color: rgba(127, 229, 236, 0.5);
+  border-radius: 40px 40px 40px 40px;
+}
+
+.logoDirect-greenblueish:hover {
+  color: #2f2f3a;
+  background-color: rgba(127, 229, 236, 0.5);
+  border-radius: 30px 30px 30px 30px;
+  margin-left: 0px;
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.navDirect-purple:hover {
+  color: #26262e;
+  background-color: rgba(195, 168, 230, 0.5);
+  border-radius: 40px 40px 40px 40px;
+}
+
+.logoDirect-purple:hover {
+  color: #2f2f3a;
+  background-color: rgba(195, 168, 230, 0.5);
+  border-radius: 30px 30px 30px 30px;
+  margin-left: 0px;
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.c1blankSpace1 {
+  -webkit-transition: .3s;
+  transition: .3s;
+  height: 26vh;
+}
+
+.c1imgdiv {
+  -webkit-transition: .3s;
+  transition: .3s;
+  height: 0px;
+}
+
+.content1Title {
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.c1TD-orange {
+  position: -webkit-sticky;
+  position: sticky;
+  -webkit-transition: .3s;
+  transition: .3s;
+  color: #e7f6f8;
+  text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.9);
+}
+
+.c1TD-orange:hover {
+  color: #ffd8c1;
+}
+
+.c1TD-orange:active {
+  color: antiquewhite;
+  opacity: .5;
+}
+
+.c1TD-greenblueish {
+  position: -webkit-sticky;
+  position: sticky;
+  -webkit-transition: .3s;
+  transition: .3s;
+  color: #f4fdff;
+  text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.9);
+}
+
+.c1TD-greenblueish:hover {
+  color: #d3ffe8;
+}
+
+.c1TD-greenblueish:active {
+  color: #c7eeff;
+  opacity: .5;
+}
+
+.c1TD-purple {
+  position: -webkit-sticky;
+  position: sticky;
+  -webkit-transition: .3s;
+  transition: .3s;
+  color: #fbf4ff;
+  text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.9);
+}
+
+.c1TD-purple:hover {
+  color: #f8ddff;
+}
+
+.c1TD-purple:active {
+  color: #c2a3db;
+  opacity: .5;
+}
+
+.content1SubTitle {
+  margin-top: -15px;
+}
+
+.c1sT-dark {
+  color: #0a1011;
+  text-shadow: 3px 3px 10px rgba(153, 153, 153, 0.6);
+}
+
+.c1sT-light {
+  color: #ddeff1;
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.9);
+}
+
+.c1blankSpace2 {
+  height: 38vh;
+}
+
+@media (max-width: 990px) {
+  .content1Title {
+    font-size: 40px;
+  }
+  .c1imgdiv {
+    height: 8vh;
+  }
+}
+
+@media (max-width: 780px) {
+  .c1blankSpace1 {
+    height: 22vh;
+  }
+  .c1imgdiv {
+    height: 20vh;
+  }
+}
+
+@media (max-width: 600px) {
+  .c1blankSpace1 {
+    height: 18vh;
+  }
+  .c1imgdiv {
+    height: 30vh;
+  }
+}
+/*# sourceMappingURL=404.css.map */
