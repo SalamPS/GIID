@@ -351,9 +351,7 @@ body {
 }
 
 .whoarewe-content {
-  z-index: 10;
   width: 100%;
-  position: relative;
   text-align: justify;
   border-radius: 20px;
   padding: 20px 40px 20px 40px;
@@ -393,10 +391,11 @@ body {
 
 .whatwehave {
   width: 100%;
-  background-image: url(/src/imgs/bg/aether-teyvat.jpg);
+  background-image: url(/src/imgs/bg/lisa-lib.jpg);
+  -webkit-box-shadow: 0px 0px 20px black;
+          box-shadow: 0px 0px 20px black;
   background-position: top;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: cover;
   padding: 50px 40px 50px 40px;
 }
@@ -515,15 +514,14 @@ body {
 }
 
 .content4 {
-  position: relative;
-  z-index: 10;
   width: 100%;
   padding: 50px 40px 50px 40px;
   -webkit-box-shadow: 0px 0px 20px black;
           box-shadow: 0px 0px 20px black;
-  background-image: url(/src/imgs/bg/amber.jpg);
+  background-image: url(/src/imgs/bg/klee.png);
   background-color: #1b1f25;
   background-position: right;
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -535,7 +533,7 @@ body {
 }
 
 .c4blankSpace1 {
-  height: 10vh;
+  height: 5vh;
 }
 
 #widget-bot {
@@ -549,7 +547,7 @@ body {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 990px) {
   #widget-bot {
     margin-bottom: 40px;
   }
