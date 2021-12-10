@@ -12,7 +12,7 @@
 /* Track */
 ::-webkit-scrollbar-track {
   opacity: 0;
-  background: rgba(23, 26, 29, .7);
+  background: rgba(23, 26, 29, .7) !important;
 }
 /* Handle */
 ::-webkit-scrollbar-thumb {
