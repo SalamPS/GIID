@@ -306,7 +306,13 @@ body {
 }
 
 .c2blankSpace2 {
-  height: 0vh;
+  height: 20px;
+}
+
+@media (max-width: 990px) {
+  .c2blankSpace2 {
+    height: 0px;
+  }
 }
 
 .img-c1-cat {
@@ -377,25 +383,30 @@ body {
 
 @media (min-width: 990px) {
   .c2T1 {
-    text-align: right;
     padding-right: 10%;
+  }
+}
+
+@media (max-width: 990px) {
+  .c2T1 {
+    text-align: center;
   }
 }
 
 @media (max-width: 600px) {
   .c2T1 {
-    text-align: center;
     font-size: 24px;
   }
 }
 
 .whatwehave {
   width: 100%;
-  background-image: url(/src/imgs/bg/lisa-lib.jpg);
+  background-image: url(/src/imgs/bg/amber.jpg);
   -webkit-box-shadow: 0px 0px 20px black;
           box-shadow: 0px 0px 20px black;
   background-position: top;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
   padding: 50px 40px 50px 40px;
 }
@@ -518,18 +529,13 @@ body {
   padding: 50px 40px 50px 40px;
   -webkit-box-shadow: 0px 0px 20px black;
           box-shadow: 0px 0px 20px black;
-  background-image: url(/src/imgs/bg/klee.png);
+  background-image: url(/src/imgs/bg/barbara.png);
   background-color: #1b1f25;
-  background-position: right;
-  background-attachment: fixed;
+  background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-@media (max-width: 600px) {
-  .content4 {
-    background-position: 80% 0%;
-  }
+  -webkit-transition: 2s;
+  transition: 2s;
 }
 
 .c4blankSpace1 {
@@ -537,7 +543,7 @@ body {
 }
 
 #widget-bot {
-  opacity: .97;
+  opacity: .95;
   border-radius: 10px;
 }
 
