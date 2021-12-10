@@ -1,5 +1,6 @@
 body {
   overflow-x: hidden;
+  overflow-y: overlay;
 }
 
 #giid {
@@ -8,6 +9,7 @@ body {
   background-attachment: fixed;
   background-size: cover;
   overflow-x: hidden;
+  overflow-y: overlay;
   -webkit-transition: .3s;
   transition: .3s;
 }
