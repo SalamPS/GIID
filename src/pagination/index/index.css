@@ -9,9 +9,9 @@ body {
   background-attachment: fixed;
   background-size: cover;
   overflow-x: hidden;
-  overflow-y: overlay;
   -webkit-transition: .3s;
   transition: .3s;
+  overflow-y: overlay;
 }
 
 @media (max-width: 990px) {
@@ -41,12 +41,6 @@ body {
           box-shadow: none;
 }
 
-@media (min-width: 990px) {
-  .brand-logo {
-    margin-left: 20px;
-  }
-}
-
 .navDirect {
   -webkit-transition: .3s;
   transition: .3s;
@@ -55,54 +49,69 @@ body {
 .logoDirect {
   -webkit-transition: .31s;
   transition: .31s;
+  height: 45px;
+  border-radius: 30px;
+  text-align: center;
+}
+
+@media (min-width: 990px) {
+  .brand-logo {
+    margin-left: 20px;
+  }
 }
 
 .navDirect-orange:hover {
   color: #26262e;
   background-color: rgba(236, 161, 127, 0.6);
-  border-radius: 40px 40px 40px 40px;
+  border-radius: 40px;
 }
 
 .logoDirect-orange:hover {
   color: #2f2f3a;
   background-color: rgba(117, 96, 86, 0.6);
-  border-radius: 30px 30px 30px 30px;
-  margin-left: 0px;
-  padding-top: 5px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 0px 15px 0px 15px;
+}
+
+@media (min-width: 990px) {
+  .logoDirect-orange:hover {
+    margin-left: 5px;
+  }
 }
 
 .navDirect-greenblueish:hover {
   color: #26262e;
   background-color: rgba(127, 229, 236, 0.5);
-  border-radius: 40px 40px 40px 40px;
+  border-radius: 40px;
 }
 
 .logoDirect-greenblueish:hover {
   color: #2f2f3a;
   background-color: rgba(127, 229, 236, 0.5);
-  border-radius: 30px 30px 30px 30px;
-  margin-left: 0px;
-  padding-top: 5px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 0px 15px 0px 15px;
+}
+
+@media (min-width: 990px) {
+  .logoDirect-greenblueish:hover {
+    margin-left: 5px;
+  }
 }
 
 .navDirect-purple:hover {
   color: #26262e;
   background-color: rgba(195, 168, 230, 0.5);
-  border-radius: 40px 40px 40px 40px;
+  border-radius: 40px;
 }
 
 .logoDirect-purple:hover {
   color: #2f2f3a;
   background-color: rgba(195, 168, 230, 0.5);
-  border-radius: 30px 30px 30px 30px;
-  margin-left: 0px;
-  padding-top: 5px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 0px 15px 0px 15px;
+}
+
+@media (min-width: 990px) {
+  .logoDirect-purple:hover {
+    margin-left: 5px;
+  }
 }
 
 .img-rightleft {
@@ -531,13 +540,17 @@ body {
   padding: 50px 40px 50px 40px;
   -webkit-box-shadow: 0px 0px 20px black;
           box-shadow: 0px 0px 20px black;
-  background-image: url(/src/imgs/bg/barbara.png);
+  background-image: url(/src/imgs/bg/lumine-friend.jpg);
   background-color: #1b1f25;
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
   -webkit-transition: 2s;
   transition: 2s;
+}
+
+@media (max-width : 600px) {
+  padding: 50px 0px 50px 0px;
 }
 
 .c4blankSpace1 {

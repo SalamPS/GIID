@@ -168,23 +168,23 @@ for (let i = 0; i < c3imgRight.length; i++) {
 
 
 
-const c4container = document.getElementById('container-c4');
-let C4BackgroundImgs = ["./src/imgs/bg/fatui-love.jpg",
-                        "./src/imgs/bg/lumine-friend.jpg",
-                        "/src/imgs/bg/xiao-moon.jpg",
-                        "./src/imgs/bg/barbara.png"];
+// const c4container = document.getElementById('container-c4');
+// let C4BackgroundImgs = ["./src/imgs/bg/fatui-love.jpg",
+//                         "./src/imgs/bg/lumine-friend.jpg",
+//                         "/src/imgs/bg/xiao-moon.jpg",
+//                         "./src/imgs/bg/barbara.png"];
 
-const timer = () => {
-  window.setInterval(changeC4bg, 10000);
-}
-let c4bgCounter = 0;
-function changeC4bg() {   
-  c4container.style.backgroundImage = `url('${C4BackgroundImgs[c4bgCounter]}')`;
-  c4bgCounter += 1;
-  if (c4bgCounter === C4BackgroundImgs.length) {
-    c4bgCounter = 0;
-  }
-}
-window.onload = () => {
-  timer();
-}
+// const timer = () => {
+//   window.setInterval(changeC4bg, 10000);
+// }
+// let c4bgCounter = 0;
+// function changeC4bg() {   
+//   c4container.style.backgroundImage = `url('${C4BackgroundImgs[c4bgCounter]}')`;
+//   c4bgCounter += 1;
+//   if (c4bgCounter === C4BackgroundImgs.length) {
+//     c4bgCounter = 0;
+//   }
+// }
+// window.onload = () => {
+//   timer();
+// }
