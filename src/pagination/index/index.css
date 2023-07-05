@@ -276,7 +276,7 @@ body {
   padding: 50px 40px 50px 40px;
   -webkit-box-shadow: 0px 0px 20px black;
           box-shadow: 0px 0px 20px black;
-  background-image: url(/src/imgs/bg/genshin-charas.jpg);
+  background-image: url(../../imgs/bg/genshin-charas.jpg);
   background-color: #1b1f25;
   background-position: right;
   background-repeat: no-repeat;
@@ -412,7 +412,7 @@ body {
 
 .whatwehave {
   width: 100%;
-  background-image: url(/src/imgs/bg/amber.jpg);
+  background-image: url(../..//imgs/bg/amber.jpg);
   -webkit-box-shadow: 0px 0px 20px black;
           box-shadow: 0px 0px 20px black;
   background-position: top;
@@ -540,17 +540,13 @@ body {
   padding: 50px 40px 50px 40px;
   -webkit-box-shadow: 0px 0px 20px black;
           box-shadow: 0px 0px 20px black;
-  background-image: url(/src/imgs/bg/lumine-friend.jpg);
+  background-image: url(../../imgs/bg/lumine-friend.jpg);
   background-color: #1b1f25;
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
   -webkit-transition: 2s;
   transition: 2s;
-}
-
-@media (max-width : 600px) {
-  padding: 50px 0px 50px 0px;
 }
 
 .c4blankSpace1 {
